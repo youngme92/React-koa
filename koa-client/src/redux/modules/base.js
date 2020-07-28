@@ -9,7 +9,9 @@ const setHeaderVisibility = createSlice({
         }
     }
 })
+
 // dispath하기 위해 필효한 action 
 export const { setvisible } = setHeaderVisibility.actions;
 // store.js 에서 사용하기 위한 export
 export default setHeaderVisibility.reducer;
+
